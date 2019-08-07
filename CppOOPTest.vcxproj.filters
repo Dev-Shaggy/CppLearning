@@ -13,10 +13,92 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="MyClass">
+      <UniqueIdentifier>{38ae38a0-f8eb-4cdb-a8f6-36e5c5c29b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClass\Fractal">
+      <UniqueIdentifier>{bd56317c-4f0d-4a8e-b8cd-3bdeb3f00dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClass\Event">
+      <UniqueIdentifier>{7177bb4c-5d43-4a84-909d-b85b5f66363b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClass\Geometria">
+      <UniqueIdentifier>{8d83f7cf-af38-4b32-bc90-afc80e3fdc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClass\Quiz">
+      <UniqueIdentifier>{99868ce9-228f-4fb9-9e8e-4b00dc144a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClass\Polimorfia">
+      <UniqueIdentifier>{f3166a8a-488b-4e29-9206-3f743578caf8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pytanie.cpp">
+      <Filter>MyClass\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fractal.cpp">
+      <Filter>MyClass\Fractal</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>MyClass\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Punkt.cpp">
+      <Filter>MyClass\Geometria</Filter>
+    </ClCompile>
+    <ClCompile Include="Prostokat.cpp">
+      <Filter>MyClass\Geometria</Filter>
+    </ClCompile>
+    <ClCompile Include="Kolo.cpp">
+      <Filter>MyClass\Geometria</Filter>
+    </ClCompile>
+    <ClCompile Include="Kula.cpp">
+      <Filter>MyClass\Geometria</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>MyClass\Polimorfia</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>MyClass\Polimorfia</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pytanie.h">
+      <Filter>MyClass\Quiz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fractal.h">
+      <Filter>MyClass\Fractal</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>MyClass\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Prostokat.h">
+      <Filter>MyClass\Geometria</Filter>
+    </ClInclude>
+    <ClInclude Include="Punkt.h">
+      <Filter>MyClass\Geometria</Filter>
+    </ClInclude>
+    <ClInclude Include="Kolo.h">
+      <Filter>MyClass\Geometria</Filter>
+    </ClInclude>
+    <ClInclude Include="Kula.h">
+      <Filter>MyClass\Geometria</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>MyClass\Polimorfia</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>MyClass\Polimorfia</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>MyClass\Polimorfia</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\quiz.txt">
+      <Filter>MyClass\Quiz</Filter>
+    </Text>
   </ItemGroup>
 </Project>

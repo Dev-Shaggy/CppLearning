@@ -123,7 +123,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Fractal.cpp" />
+    <ClCompile Include="Kolo.cpp" />
+    <ClCompile Include="Kula.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Prostokat.cpp" />
+    <ClCompile Include="Punkt.cpp" />
+    <ClCompile Include="Pytanie.cpp" />
+    <ClCompile Include="Square.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Fractal.h" />
+    <ClInclude Include="Kolo.h" />
+    <ClInclude Include="Kula.h" />
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="Prostokat.h" />
+    <ClInclude Include="Punkt.h" />
+    <ClInclude Include="Pytanie.h" />
+    <ClInclude Include="Square.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\quiz.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
